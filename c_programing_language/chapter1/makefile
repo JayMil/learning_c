@@ -1,3 +1,11 @@
+.PHONY: exercise112
+exercise112:
+	gcc exercise112/wordsOnLines.c
+	@echo "== Test Input =="
+	echo "Hello World One two three" | ./a.out
+	@echo "== Test File =="
+	cat exercise112/testfile.txt | ./a.out
+
 .PHONY: exercise111
 exercise111:
 	gcc exercise111/wordcount.c
