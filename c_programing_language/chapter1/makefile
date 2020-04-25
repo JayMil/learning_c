@@ -1,3 +1,8 @@
+.PHONY: exercise105
+exercise105:
+	gcc exercise105/tempConvert.c
+	./a.out
+
 .PHONY: exercise104
 exercise104:
 	gcc exercise104/tempConvert.c
