@@ -1,3 +1,8 @@
+.PHONY: exercise106
+exercise106:
+	gcc exercise106/copyChars.c
+	cat exercise106/exercise106.testfile.txt | ./a.out
+
 .PHONY: exercise105
 exercise105:
 	gcc exercise105/tempConvert.c
