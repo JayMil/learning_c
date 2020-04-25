@@ -1,3 +1,15 @@
+.PHONY: exercise109
+exercise109:
+	gcc exercise109/reduceBlanks.c
+	@echo "== Test No Blank Lines =="
+	echo "1234567890" | ./a.out
+	@echo "== Test Single Blank Lines =="
+	echo "1 3 5 7 9 " | ./a.out
+	@echo "== Test Multiple Blank Lines =="
+	echo "123    890" | ./a.out
+	@echo "== Test Starting and Ending Blank Lines =="
+	echo "   4567   " | ./a.out
+
 .PHONY: exercise108
 exercise108:
 	gcc exercise108/countLines.c
