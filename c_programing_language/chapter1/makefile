@@ -1,3 +1,13 @@
+.PHONY: exercise113
+exercise113:
+	gcc exercise113/wordLengthHistogram.c
+	@echo "== Test Text  =="
+	echo "a be sea" | ./a.out
+	@echo "== Test File =="
+	cat exercise113/testfile.txt | ./a.out
+	@echo "== Test File =="
+	cat exercise113/wordLengthHistogram.c | ./a.out
+
 .PHONY: exercise112
 exercise112:
 	gcc exercise112/wordsOnLines.c
