@@ -1,3 +1,8 @@
+.PHONY: exercise115
+exercise115:
+	gcc exercise115/tempConvert.c
+	./a.out
+
 .PHONY: exercise114
 exercise114:
 	gcc exercise114/characterHistogram.c
@@ -97,4 +102,9 @@ exercise102:
 .PHONY: exercise101
 exercise101:
 	gcc -Wall exercise101/hello.c
+	./a.out
+
+.PHONY: main
+main:
+	gcc -Wall main.c
 	./a.out
