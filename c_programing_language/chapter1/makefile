@@ -1,3 +1,8 @@
+.PHONY: exercise108
+exercise108:
+	gcc exercise108/countLines.c
+	cat exercise108/exercise108.testfile.txt | ./a.out
+
 .PHONY: exercise107
 exercise107:
 	gcc exercise107/copyChars.c
