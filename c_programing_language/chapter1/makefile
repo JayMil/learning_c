@@ -1,3 +1,16 @@
+.PHONY: exercise111
+exercise111:
+	gcc exercise111/wordcount.c
+	@echo "== Test Text =="
+	echo "Hello There Buddy" | ./a.out
+	@echo "== Test File =="
+	cat exercise111/testfile.txt | ./a.out
+	@echo "== Test Blank File =="
+	cat exercise111/blank.txt | ./a.out
+	@echo "== Test Special File =="
+	cat exercise111/specialChars.txt | ./a.out
+
+
 .PHONY: exercise110
 exercise110:
 	gcc exercise110/replaceChars.c
