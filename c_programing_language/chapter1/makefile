@@ -1,3 +1,8 @@
+.PHONY: exercise107
+exercise107:
+	gcc exercise107/copyChars.c
+	cat exercise107/exercise107.testfile.txt | ./a.out
+
 .PHONY: exercise106
 exercise106:
 	gcc exercise106/copyChars.c
