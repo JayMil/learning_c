@@ -1,3 +1,8 @@
+.PHONY: exercise116
+exercise116:
+	gcc exercise116/longestLine.c
+	cat exercise116/testfile.txt | ./a.out
+
 .PHONY: exercise115
 exercise115:
 	gcc exercise115/tempConvert.c
@@ -107,4 +112,4 @@ exercise101:
 .PHONY: main
 main:
 	gcc -Wall main.c
-	./a.out
+	cat main.c | ./a.out

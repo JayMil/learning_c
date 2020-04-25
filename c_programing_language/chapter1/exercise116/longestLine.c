@@ -1,3 +1,14 @@
+/*
+ * Exercise 1-16 from
+ * The C Programming Language
+ *      by Brian W. Kernighan and Dennis M. Ritchie
+ *
+ *  By Jake Milder
+ *
+ *  Print the longest line from a given input.
+ *  Note max width is 1000 characters, anything longer will be truncated
+ *
+ */
 #include <stdio.h>
 
 #define MAXLINE 1000    /* maximum input line size */
@@ -19,15 +30,16 @@ int main() {
             copy(longest, line);
         }
     if (max > 0)    /* there was a line */
-        printf("%s", longest);
+        printf("%d: %s", max, longest);
     return 0;
 }
 
 /* get line:    read a line into s, return length */
 int readline(char s[], int lim) {
     int c, i;
-    for (i=0; i<lim-1 && (c=getchar())!=EOF && c!='\n'; ++i)
-        s[i] = c;
+    for (i=0; (c=getchar())!=EOF && c!='\n'; ++i)
+        if (i<lim-1)
+            s[i] = c;
     if (c == '\n') {
         s[i] = c;
         i++;
