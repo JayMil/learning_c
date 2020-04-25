@@ -1,3 +1,13 @@
+.PHONY: exercise114
+exercise114:
+	gcc exercise114/characterHistogram.c
+	@echo "== Test Text  =="
+	echo "a bc def" | ./a.out
+	@echo "== Test File =="
+	cat exercise114/testfile.txt | ./a.out
+	@echo "== Test Code =="
+	cat exercise114/characterHistogram.c | ./a.out
+
 .PHONY: exercise113
 exercise113:
 	gcc exercise113/wordLengthHistogram.c
@@ -5,7 +15,7 @@ exercise113:
 	echo "a be sea" | ./a.out
 	@echo "== Test File =="
 	cat exercise113/testfile.txt | ./a.out
-	@echo "== Test File =="
+	@echo "== Test Code =="
 	cat exercise113/wordLengthHistogram.c | ./a.out
 
 .PHONY: exercise112
