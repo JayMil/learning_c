@@ -1,3 +1,11 @@
+.PHONY: exercise110
+exercise110:
+	gcc exercise110/replaceChars.c
+	@echo "== Test File =="
+	cat exercise110/testfile.txt | ./a.out
+	@echo "== Test User Input =="
+	./a.out
+
 .PHONY: exercise109
 exercise109:
 	gcc exercise109/reduceBlanks.c
