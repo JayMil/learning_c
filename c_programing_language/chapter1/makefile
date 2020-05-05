@@ -1,3 +1,8 @@
+.PHONY: exercise117
+exercise117:
+	gcc -Wall exercise117/printLongLines.c
+	cat exercise117/testfile.txt | ./a.out
+
 .PHONY: exercise116
 exercise116:
 	gcc exercise116/longestLine.c
