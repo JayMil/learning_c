@@ -1,3 +1,8 @@
+.PHONY: exercise119
+exercise119:
+	gcc -Wall exercise119/reverse.c
+	cat exercise119/testfile.txt | ./a.out
+
 .PHONY: exercise118
 exercise118:
 	gcc -Wall exercise118/removeTrailingSpaces.c
