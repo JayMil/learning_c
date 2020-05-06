@@ -1,0 +1,7 @@
+no trailing spaces
+one trailing space 
+two trailing spaces  
+one trailing tab		
+two trailing tabs				
+
+		blank line above		

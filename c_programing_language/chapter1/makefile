@@ -1,3 +1,8 @@
+.PHONY: exercise118
+exercise118:
+	gcc -Wall exercise118/removeTrailingSpaces.c
+	cat exercise118/testfile.txt | ./a.out
+
 .PHONY: exercise117
 exercise117:
 	gcc -Wall exercise117/printLongLines.c
