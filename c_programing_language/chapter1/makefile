@@ -1,3 +1,8 @@
+.PHONY: exercise121
+exercise121:
+	gcc -Wall exercise121/entab.c
+	cat exercise121/testfile.txt | ./a.out
+
 .PHONY: exercise120
 exercise120:
 	gcc -Wall exercise120/detab.c
