@@ -1,3 +1,8 @@
+.PHONY: exercise122
+exercise122:
+	gcc -Wall exercise122/wrapLines.c
+	cat exercise122/testfile.txt | ./a.out
+
 .PHONY: exercise121
 exercise121:
 	gcc -Wall exercise121/entab.c
