@@ -1,3 +1,8 @@
+.PHONY: exercise123
+exercise123:
+	gcc -Wall exercise123/removeComments.c
+	cat exercise123/testfile.c | ./a.out
+
 .PHONY: exercise122
 exercise122:
 	gcc -Wall exercise122/wrapLines.c
