@@ -1,3 +1,8 @@
+.PHONY: exercise124
+exercise124:
+	gcc -Wall exercise124/syntaxCheck.c
+	cat exercise124/testfile.c | ./a.out
+
 .PHONY: exercise123
 exercise123:
 	gcc -Wall exercise123/removeComments.c
