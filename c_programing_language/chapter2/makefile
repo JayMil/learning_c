@@ -1,3 +1,8 @@
+.PHONY: exercise202
+exercise202:
+	gcc -Wall exercise202/nonForLoop.c
+	cat exercise202/nonForLoop.c | ./a.out
+
 .PHONY: exercise201
 exercise201:
 	gcc -Wall exercise201/size.c
