@@ -1,3 +1,8 @@
+.PHONY: exercise203
+exercise203:
+	gcc -Wall exercise203/htoi.c
+	./a.out
+
 .PHONY: exercise202
 exercise202:
 	gcc -Wall exercise202/nonForLoop.c
