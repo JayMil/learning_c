@@ -1,3 +1,8 @@
+.PHONY: exercise205
+exercise205:
+	gcc -Wall exercise205/any.c
+	./a.out
+
 .PHONY: exercise204
 exercise204:
 	gcc -Wall exercise204/squeeze.c
