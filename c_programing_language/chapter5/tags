@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+BUF	exercise503/strcat.c	/^#define BUF /;"	d	file:
+BUF	exercise504/strend.c	/^#define BUF /;"	d	file:
+BUF	exercise505/test.c	/^#define BUF /;"	d	file:
+CLEAR	exercise505/cunit.c	/^const char * CLEAR = "\\e[00m";$/;"	v	typeref:typename:const char *
+GREEN	exercise505/cunit.c	/^const char * GREEN = "\\e[1;32m";$/;"	v	typeref:typename:const char *
+RED	exercise505/cunit.c	/^const char * RED = "\\e[1;31m";$/;"	v	typeref:typename:const char *
+_failCount	exercise505/cunit.c	/^int _failCount = 0;$/;"	v	typeref:typename:int
+_name	test.c	/^char *_name;$/;"	v	typeref:typename:char *
+_passCount	exercise505/cunit.c	/^int _passCount = 0;$/;"	v	typeref:typename:int
+_showheader	exercise505/cunit.c	/^short int _showheader = 0;$/;"	v	typeref:typename:short int
+_testName	exercise505/cunit.c	/^char *_testName;$/;"	v	typeref:typename:char *
+_testNum	exercise505/cunit.c	/^int _testNum = 1;$/;"	v	typeref:typename:int
+_verbose	exercise505/cunit.c	/^short int _verbose = 0;$/;"	v	typeref:typename:short int
+assertEqualsI	exercise505/cunit.c	/^void assertEqualsI(int expected, int actual, const char *msg) {$/;"	f	typeref:typename:void
+assertEqualsS	exercise505/cunit.c	/^void assertEqualsS(const char *expected, const char *actual, const char *msg) {$/;"	f	typeref:typename:void
+debug	makefile	/^debug:$/;"	t
+endSuite	exercise505/cunit.c	/^void endSuite() {$/;"	f	typeref:typename:void
+endTest	exercise505/cunit.c	/^void endTest() {$/;"	f	typeref:typename:void
+exercise503	makefile	/^exercise503: gentags$/;"	t
+exercise504	makefile	/^exercise504: gentags$/;"	t
+exercise505	makefile	/^exercise505: gentags$/;"	t
+gentags	makefile	/^gentags:$/;"	t
+main	exercise503/strcat.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	exercise504/strend.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	exercise505/test.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test.c	/^int main() {$/;"	f	typeref:typename:int
+printHeader	exercise505/cunit.c	/^void printHeader() {$/;"	f	typeref:typename:void
+printName	test.c	/^void printName() {$/;"	f	typeref:typename:void
+print_ifailure	exercise505/cunit.c	/^void print_ifailure(int expected, int actual) {$/;"	f	typeref:typename:void
+print_msg	exercise505/cunit.c	/^void print_msg(const char *msg) {$/;"	f	typeref:typename:void
+print_pass	exercise505/cunit.c	/^void print_pass() {$/;"	f	typeref:typename:void
+print_result	exercise504/strend.c	/^void print_result(char *s, char *t, int result) {$/;"	f	typeref:typename:void
+print_sfailure	exercise505/cunit.c	/^void print_sfailure(const char *expected, const char *actual) {$/;"	f	typeref:typename:void
+setName	test.c	/^void setName(char *name) {$/;"	f	typeref:typename:void
+startSuite	exercise505/cunit.c	/^void startSuite(short int verbose, short int showheader) {$/;"	f	typeref:typename:void
+startTest	exercise505/cunit.c	/^void startTest(const char *testName) {$/;"	f	typeref:typename:void
+str_cat	exercise503/strcat.c	/^void str_cat(char *s, char *t) {$/;"	f	typeref:typename:void
+str_cmp	exercise505/modules.c	/^int str_cmp(const char *s, const char *t) {$/;"	f	typeref:typename:int
+str_end	exercise504/strend.c	/^int str_end(char *s, char *t) {$/;"	f	typeref:typename:int
+strcatn	exercise505/modules.c	/^void strcatn(char *s, const char *t, int n) {$/;"	f	typeref:typename:void
+strcmpn	exercise505/modules.c	/^int strcmpn(const char *s, const char *t, int n) {$/;"	f	typeref:typename:int
+strcpyn	exercise505/modules.c	/^void strcpyn(char *s, const char *t, int n) {$/;"	f	typeref:typename:void
+test	exercise504/strend.c	/^void test(char *s, char *t, int expected) {$/;"	f	typeref:typename:void
+test_strcatn	exercise505/test.c	/^void test_strcatn() {$/;"	f	typeref:typename:void
+test_strcmp	exercise505/test.c	/^void test_strcmp() {$/;"	f	typeref:typename:void
+test_strcmpn	exercise505/test.c	/^void test_strcmpn() {$/;"	f	typeref:typename:void
+test_strcpyn	exercise505/test.c	/^void test_strcpyn() {$/;"	f	typeref:typename:void
